@@ -39,7 +39,6 @@ namespace ConsoleApp1
                         usdBallance += wantToChange;
                         Console.WriteLine($"У вас {rubBallance} рублей и {usdBallance} долларов");
                     }
-
                     else
                     {
                         Console.WriteLine("недостаточный балланс");
@@ -55,7 +54,6 @@ namespace ConsoleApp1
                         rubBallance += wantToChange * usdToRub;
                         Console.WriteLine($"У вас {rubBallance} рублей и {usdBallance} долларов");
                     }
-
                     else
                     {
                         Console.WriteLine("недостаточный балланс");
@@ -72,7 +70,6 @@ namespace ConsoleApp1
                         euroBallance += wantToChange;
                         Console.WriteLine($"У вас {rubBallance} рублей и {euroBallance} евро");
                     }
-
                     else
                     {
                         Console.WriteLine("недостаточный балланс");
@@ -89,7 +86,6 @@ namespace ConsoleApp1
                         rubBallance += wantToChange * euroToRub;
                         Console.WriteLine($"У вас {rubBallance} рублей и {euroBallance} евро");
                     }
-
                     else
                     {
                         Console.WriteLine("недостаточный балланс");
@@ -106,7 +102,6 @@ namespace ConsoleApp1
                         usdBallance += wantToChange * euroToUsd;
                         Console.WriteLine($"У вас {usdBallance} долларов и {euroBallance} евро");
                     }
-
                     else
                     {
                         Console.WriteLine("недостаточный балланс");
@@ -123,7 +118,6 @@ namespace ConsoleApp1
                         usdBallance += wantToChange;
                         Console.WriteLine($"У вас {euroBallance} евро и {usdBallance} долларов");
                     }
-
                     else
                     {
                         Console.WriteLine("недостаточный балланс");
