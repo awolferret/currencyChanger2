@@ -33,6 +33,7 @@ namespace ConsoleApp1
                     Console.WriteLine("Обмен рублей на доллары");
                     Console.WriteLine("Сколько долларов вы хотите купить?");
                     wantToChange = Convert.ToSingle(Console.ReadLine());
+
                     if (rubBallance >= wantToChange * rubToUsd)
                     {
                         rubBallance -= wantToChange * rubToUsd;
@@ -48,6 +49,7 @@ namespace ConsoleApp1
                     Console.WriteLine("Обмен долларов на рубли");
                     Console.WriteLine("Сколько долларов вы хотите продать?");
                     wantToChange = Convert.ToSingle(Console.ReadLine());
+
                     if (usdBallance >= wantToChange)
                     {
                         usdBallance -= wantToChange;
